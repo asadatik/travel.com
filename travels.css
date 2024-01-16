@@ -197,7 +197,7 @@ background: rgba(233, 68, 68, 0.05);
   .img-text{
     position: relative;
     width: 100%;
-    max-width: 600px ;
+    max-width: 600px;
   }
   .picture{
     width: 100%;
@@ -230,6 +230,8 @@ border: 1px solid #FF5400;
      }
      .newsletter{
         padding-top: 100px;
+        display: flex;
+        gap: 25px;
      }
 
 
@@ -250,6 +252,45 @@ gap: 16px;
         height: 52px;
         flex-shrink: 0;  
      }
+        .icanot{
+            width: 100%;
+           max-width: 600px;
+            position: relative;
+              
+        }
+
+     .com{
+
+        color: #FFF;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+     }
+    .travel-com{
+        position: absolute;
+             bottom: 20%;
+             left: 55%;
+        border-radius: 16px;
+        background: #FF5400;
+        width: 300px;
+        height: 100px;
+        transform: rotate(-25deg);
+        flex-shrink: 0;
+        
+    }
+   
+     .saveup{
+        text-align: center;
+         color: #FFF;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+          
+     }
+
 
    /* responsive style  */
     @media screen and (max-width:576px ) {
@@ -274,6 +315,7 @@ gap: 16px;
     } 
       .banner-section{ width: 400px }
      .Popular{
-        flex-direction: column;  
+        flex-direction: column;
+
      }
 }
