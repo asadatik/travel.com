@@ -52,7 +52,7 @@ line-height: normal;
         width: 1500px;
         height: 500px;
         flex-shrink: 0;
-         background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+         background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
          background-repeat: no-repeat;
          background-position: center;
          border-radius: 16px;
@@ -221,7 +221,35 @@ line-height: 36px; /* 150% */
     .SIMPLE{ display: flex;
         margin-top: 110px;
         }
-     
+     .news-text{
+        width: 650px;
+height: 422px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+     }
+     .newsletter{
+        padding-top: 100px;
+     }
+
+
+     .input{
+           display: grid;
+           align-items: center;
+           gap: 10px;
+     }
+     .input input{
+        width: 393px;
+height: 52px;
+flex-shrink: 0;
+gap: 16px;
+
+     }
+     .input button{
+        width: 393px;
+        height: 52px;
+        flex-shrink: 0;  
+     }
 
    /* responsive style  */
     @media screen and (max-width:576px ) {
